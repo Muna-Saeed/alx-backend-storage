@@ -1,4 +1,2 @@
-# Script to list all databases in MongoDB
-
-# Connect to MongoDB and execute the command to list databases
+// list all databases in MongoDB
 show dbs;
