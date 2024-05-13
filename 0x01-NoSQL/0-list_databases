@@ -3,4 +3,4 @@
 # Script to list all databases in MongoDB
 
 # Connect to MongoDB and execute the command to list databases
-mongo --eval "db.adminCommand('listDatabases')"
+show dbs;
