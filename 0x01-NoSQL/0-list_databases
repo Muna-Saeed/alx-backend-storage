@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 # Script to list all databases in MongoDB
 
 # Connect to MongoDB and execute the command to list databases
