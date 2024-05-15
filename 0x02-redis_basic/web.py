@@ -8,6 +8,7 @@ import requests
 from typing import Callable
 from functools import wraps
 
+
 r = redis.Redis()
 
 def count_requests(method: Callable) -> Callable:
