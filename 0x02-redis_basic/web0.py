@@ -47,8 +47,6 @@ def get_page(url: str) -> str:
 
 if __name__ == "__main__":
     url = "http://slowwly.robertomurray.co.uk"
-    html_content = get_page(url)
-    print(html_content)
-    access_count = r.get(f"count:{url}").decode('utf-8')
-    print(f"Access count for {url}: {access_count}")
+    print(get_page(url))
+    print(f"Access count for {url}: {r.get(f'count:{url}').decode('utf-8')}")
 
